@@ -1,7 +1,7 @@
 # holbertonschool-web-development
 my page must and will be like this:
 
-![design](html_advanced/design.png)
+![design](design.png)
 
 https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design
 
