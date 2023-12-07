@@ -1,0 +1,478 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#first {
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    width: 100%;
+}
+
+#header #logo img {
+    padding-left: 171.59px;
+}
+
+#header #links {
+    padding-right: 171.59px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    width: 100%;
+    padding-top: 32.05px;
+}
+
+#links a {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+#first #title {
+    padding-top: 300px;
+}
+
+#first #title h1 {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#first #title #soustitres p {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    
+    
+}
+
+#first #title #soustitres {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#first #title button {
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #C271FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 60px;
+}
+
+#first #title #registerbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+#first #learn h2 {
+    
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 150px;
+}
+
+#first #learn h2 b {
+    color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 4px;
+}
+
+#first #learn #photos {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#first #learn #photos h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+    margin-top: 5px;
+}
+
+#first #learn #photos p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+    
+}
+
+#testimonial {
+    display: flex;
+    justify-content: center;
+    background-color: #C271FF;
+    height: 392px;
+    width: 100%;
+    
+}
+
+#testimonial #testidiv {
+    display: flex;
+    align-items: center;
+    
+}
+
+#testimonial #text {
+
+    width: 730px;
+    height: 158px;
+    margin-left: 30px;
+    
+}
+#testimonial #text p {
+    color: #FFF;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px;
+}
+
+#testimonial #text #person {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+
+#testimonial #text blockquote {
+    
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+    margin-bottom: 20px;
+
+}
+
+#videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+}
+
+#video {
+    width: 255px;
+    height: 335px;
+    margin: auto;
+    position: relative;
+}
+
+#play {
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+
+#videos h1 {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 87px;
+
+    justify-content: center;
+}
+
+#tutorials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1228px;
+    height: 450px;
+    margin-top: 40px;
+}
+
+#video h2 {
+    color: #071629;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 7px; 
+    
+}
+
+#video p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 7px;
+}
+
+#videos #tutorials #infos img {
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+#videos #tutorials #infos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#videos #tutorials #infos {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+#videos #mn {
+    color: #C271FF;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+#stars {
+    margin-left: 7px;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#videos span {
+    color: #C271FF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#member {
+    background-color: #071629;
+    width: 1440px;
+    height: 502px;
+}
+
+#member h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#member h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+#smiles {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 164px;
+    margin-right: 164px;
+    margin-top: 50px;
+}
+
+#buttonreg {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+#card {
+    margin-right: 15px;
+    text-align: center;
+}
+
+#member span {
+    color: #C271FF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 7px;
+
+}
+
+#member p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#member button {
+    border-radius: 22px;
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    font-size: 14px;
+
+}
+
+#faq {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    gap: 74px;
+    justify-content: center;
+    margin-bottom: 84px;
+}
+
+#faq h1 {
+    text-align: center;
+    color: #071629;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 67px;
+    margin-bottom: 74px;
+}
+  
+#faq #block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 220px;
+}
+
+#faq #block #item h2 {
+    margin-bottom: 30px;
+    color: #071629;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#faq #block #item p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 350px;
+}
+
+#footer {
+    width: 1440;
+    height: 249px;
+    background-color: #071629;
+}
+
+#logos {
+    padding-top: 101px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#socials a {
+    margin-right: 15px;
+}
+
+#footer p {
+    opacity: 0.3517;
+    text-align: center;
+    margin-top: 80px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
